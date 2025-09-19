@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace AuctionService.Entities
 {
+    [Table("Items")]
     public class Item
     {
         public Guid Id { get; set; }
@@ -18,6 +20,6 @@ namespace AuctionService.Entities
         // Nav Properties
         // These are for entity framework to setup the 1 to 1 relationship between Item and Auction entities
         public Auction Auction { get; set; }
-        public Guid AudctionId { get; set; }
+        public Guid AuctionId { get; set; }
     }
 }
