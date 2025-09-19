@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JasoDEF12VU=",
+  "dgSpecHash": "5B3Jhrbqe8E=",
   "success": true,
   "projectFilePath": "/Users/tommy/Desktop/Programming/BibbleAuction/src/AuctionService/AuctionService.csproj",
-  "expectedPackageFiles": [
-    "/Users/tommy/.nuget/packages/microsoft.aspnetcore.openapi/9.0.4/microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
-    "/Users/tommy/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
