@@ -1,4 +1,16 @@
-# Project Structure
+# Project Overview
+
+## Technologies Used
+
+This project leverages a modern stack for building, deploying, and scaling the auction platform:
+
+- **.NET** – Backend services and Entity Framework Core for data access  
+- **Next.js** – Frontend framework for server-side rendering and React-based UI  
+- **RabbitMQ** – Message broker for reliable event-driven communication  
+- **Kubernetes** – Container orchestration for scaling and managing services  
+- **Docker** – Containerization for consistent builds and deployments  
+- **SignalR** – Real-time communication for live auction updates  
+- **IdentityServer** – Authentication and authorization with secure token service  
 
 ## Auction Service Entities
 
