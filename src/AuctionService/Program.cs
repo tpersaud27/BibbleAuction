@@ -19,4 +19,13 @@ app.UseAuthorization();
 // Middleware to allow framework to redirect http request to correct endpoint
 app.MapControllers();
 
+try
+{
+    DbInitializer.InitDb(app);
+}
+catch (Exception e)
+{
+    Console.WriteLine(e);
+}
+
 app.Run();
