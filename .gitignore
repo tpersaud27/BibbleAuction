@@ -1,0 +1,43 @@
+## Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Tt]est[Rr]esult*/
+out/
+
+## VS cache/options
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Resharper / Rider / JetBrains
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+## Generated files
+AssemblyInfo.cs
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuget.props
+*.nuget.targets
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## Others
+*.cache
+*.dbmdl
+*.bak
+*.log
+*.pdb
+*.tmp
+*.obj
+*.dll
+*.exe
